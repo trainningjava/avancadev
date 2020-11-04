@@ -26,12 +26,12 @@ func home(w http.ResponseWriter, r *http.Request) {
 
 	result := Result{Status: "declined"}
 
-	if ccNumber == "1" {
-		result.Status = "approved"
-	}
-
 	if resultCoupon.Status == "invalid" {
 		result.Status = "invalid coupon"
+	} else {
+		if ccNumber == "1" {
+			result.Status = "approved"
+		}
 	}
 
 	jsonData, err := json.Marshal(result)
