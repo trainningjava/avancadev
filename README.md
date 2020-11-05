@@ -1,9 +1,9 @@
 <h1 align="center">
-    <img width="120" height="40" src="https://github.com/trainningjava/avancadev/blob/main/public/assets/images/fullcycle_avancadev_amarelo_tagline.png?raw=true">
+    <img width="609" height="123" src="https://github.com/trainningjava/avancadev/blob/main/public/assets/images/fullcycle_avancadev_amarelo_tagline.png?raw=true">
 </h1>
 
 <h2 align="center">
-    <img width="120" height="40" src="https://github.com/trainningjava/avancadev/blob/main/public/assets/images/data-evento.png?raw=true">
+    <img width="324" height="125" src="https://github.com/trainningjava/avancadev/blob/main/public/assets/images/data-evento.png?raw=true">
 </h2>
 
 ### 🤔 Sobre o que se trata ? 
