@@ -69,3 +69,7 @@ Para isso faça:
 <p align="center">
 <img width="600" src="https://github.com/trainningjava/avancadev/blob/main/filas-aula-2/public/images/Tela9.JPG?raw=true">
 </p>
+
+<p align="center">
+© CODE.education 2008 - 2020 - Todos os direitos reservados
+</p>
