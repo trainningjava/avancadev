@@ -1,0 +1,44 @@
+version: '3'
+
+services:
+  rabbitmq:
+    image: "rabbitmq:3-management"
+    hostname: "rabbitmq"
+    environment:
+      RABBITMQ_ERLANG_COOKIE: "SWQOKODSQALRPCLNMEQG"
+      RABBITMQ_DEFAULT_USER: "rabbitmq"
+      RABBITMQ_DEFAULT_PASS: "rabbitmq"
+      RABBITMQ_DEFAULT_VHOST: "/"
+    ports:
+      - "15672:15672"
+      - "5672:5672"
+    network_mode: "bridge"
+
+  microservicoa:
+    image: dockermfc1110/desafio3-microservico-a
+    container_name: microservicoa
+    ports: 
+     - "9090:9090"
+    restart: always
+    depends_on:
+      - rabbitmq
+    links: ["rabbitmq"]
+    network_mode: "bridge"
+
+  microservicob:
+    image: dockermfc1110/desafio3-microservico-b
+    container_name: microservicob
+    restart: always
+    depends_on:
+      - rabbitmq
+    links: ["rabbitmq"]
+    network_mode: "bridge"
+
+  microservicoc:
+    image: dockermfc1110/desafio3-microservico-c
+    container_name: microservicoc
+    ports:
+     - "9092:9092"
+    network_mode: "bridge"
+
+
