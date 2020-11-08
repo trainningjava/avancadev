@@ -25,6 +25,11 @@ aplicações para gente grande, ganhando mais, sendo mais reconhecidos e se torn
 <img width="800" src="https://github.com/trainningjava/avancadev/blob/main/public/assets/images/Lives.JPG?raw=true">
 </p>
 
+## :question: Perguntas
+
+- youtube [Full Cycle](https://www.youtube.com/channel/UCMUoZehUZBhLb8XaTc8TQrA)
+
+
 <p align="center">
 © CODE.education 2008 - 2020 - Todos os direitos reservados
 </p>
