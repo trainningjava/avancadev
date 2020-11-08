@@ -27,8 +27,9 @@ aplicações para gente grande, ganhando mais, sendo mais reconhecidos e se torn
 
 ## :question: Perguntas
 
-- youtube [Full Cycle](https://www.youtube.com/channel/UCMUoZehUZBhLb8XaTc8TQrA)
-
+- :100: Youtube [Full Cycle](https://www.youtube.com/channel/UCMUoZehUZBhLb8XaTc8TQrA)
+- Instagram [Full Cycle](https://www.instagram.com/devfullcycle/)
+- Facebook [Full Cycle](https://www.facebook.com/devfullcycle/)
 
 <p align="center">
 © CODE.education 2008 - 2020 - Todos os direitos reservados
